@@ -78,6 +78,7 @@ const App = () => {
 
       <Title shadow='silver'>Characters</Title>
    
+   
       <Flexus>
       {movieData.map(character => {
         return <Character key={character.id} info={character} />

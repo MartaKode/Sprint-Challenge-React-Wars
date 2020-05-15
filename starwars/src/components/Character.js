@@ -9,7 +9,7 @@ const Character = (props) => {
     // console.log(props)
     // console.log(props.info)
     return (
-    <Container background='papayawhip' img={morty} shadow='2px 1px 1px skyblue'>
+    <Container background='olive' img={morty} shadow='2px 1px 1px orange'>
       <div className='character'>
         <div className='name'> Name:  {props.info.name} </div>
 <Container weight='normal'>
